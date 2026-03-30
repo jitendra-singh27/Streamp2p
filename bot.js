@@ -53,7 +53,7 @@ app.get("/debug/collections", async (req, res) => {
 // START
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, `
-🎬 UpnShare Video Uploader Commands:
+🎬 StreamP2p Video Uploader Commands:
 
 /upload <url>
 /status < taskId >
