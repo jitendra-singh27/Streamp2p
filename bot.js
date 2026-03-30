@@ -99,7 +99,7 @@ bot.onText(/\/upload (.+)/, async (msg, match) => {
                 status: "completed"
             });
 
-            const link = `https://roninmovies.4meplayer.online/#${videoId}`;
+            const link = `https://roninxstream.strp2p.live/#${videoId}`;
             const download = `${link}&dl=1`;
 
             return  bot.sendMessage(chatId, `
@@ -174,8 +174,8 @@ let text = `🎥 Videos (Page ${page}/${totalPages}):\n\n`;
 
 pageData.forEach((v) => {
         text += `🎬 ${v.name}
-▶️ https://roninmovies.4meplayer.online/#${v.id}
-⬇️ https://roninmovies.4meplayer.online/#${v.id}&dl=1
+▶️ https://roninxstream.strp2p.live/#${v.id}
+⬇️ https://roninxstream.strp2p.live/#${v.id}&dl=1
 
 `;
     });
