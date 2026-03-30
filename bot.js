@@ -331,8 +331,8 @@ const sendSearchPage = async (chatId, queryText, page = 1) => {
 
     pageData.forEach((v) => {
         text += `🎬 ${v.name}
-▶️ https://roninmovies.4meplayer.online/#${v.id}
-⬇️ https://roninmovies.4meplayer.online/#${v.id}&dl=1
+▶️ https://roninxstream.strp2p.live/#${v.id}
+⬇️ https://roninxstream.strp2p.live/#${v.id}&dl=1
 
 `;
     });
